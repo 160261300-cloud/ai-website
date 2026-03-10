@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!--
+  Projects Page - Ebrahim
+  I used project cards with gradient header backgrounds to make each one visually distinct.
+  Each gradient uses different colours so you can quickly tell the projects apart.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Insights – Projects</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav>
+    <div class="nav-container">
+      <div class="nav-logo">AI<span>Insights</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="page-header">
+    <h1>My Projects</h1>
+    <p>AI and computing topics I have researched and worked on during my diploma</p>
+  </div>
+
+  <!-- ======== PROJECT CARDS ========
+       Each card has three parts: a coloured header div, a body with description,
+       and tags showing the technologies or topics involved.
+       I chose 6 projects to give a good overview of different AI areas. -->
+  <div class="section">
+    <h2 class="section-title">Featured Work</h2>
+    <p class="section-subtitle">A selection of AI-related topics and projects I explored during my studies.</p>
+    <div class="divider"></div>
+
+    <div class="cards-grid">
+
+      <!-- Project 1: Neural Networks - dark blue gradient -->
+      <div class="project-card">
+        <div class="project-img" style="background: linear-gradient(135deg,#0d2137,#1a3a5c);">🧠</div>
+        <div class="project-body">
+          <h3>Neural Network Research</h3>
+          <p>I researched how artificial neural networks process data, inspired by the way the human brain works. Fascinating to see how layered nodes produce intelligent outputs.</p>
+          <div class="project-tags">
+            <span class="project-tag">Machine Learning</span>
+            <span class="project-tag">Research</span>
+            <span class="project-tag">Python</span>
+          </div>
+          <a href="#" class="btn btn-secondary" style="padding:8px 18px; font-size:0.88rem;">View Details</a>
+        </div>
+      </div>
+
+      <!-- Project 2: Chatbots - dark green gradient -->
+      <div class="project-card">
+        <div class="project-img" style="background: linear-gradient(135deg,#0d2b1a,#1a5c34);">💬</div>
+        <div class="project-body">
+          <h3>How Chatbots Work</h3>
+          <p>An analysis of large language models — how they tokenise input, maintain context, and generate responses. Helped me understand the technology behind tools like ChatGPT.</p>
+          <div class="project-tags">
+            <span class="project-tag">NLP</span>
+            <span class="project-tag">LLMs</span>
+            <span class="project-tag">Analysis</span>
+          </div>
+          <a href="#" class="btn btn-secondary" style="padding:8px 18px; font-size:0.88rem;">View Details</a>
+        </div>
+      </div>
+
+      <!-- Project 3: Computer Vision - amber gradient -->
+      <div class="project-card">
+        <div class="project-img" style="background: linear-gradient(135deg,#2b1a0d,#5c3a1a);">👁️</div>
+        <div class="project-body">
+          <h3>Image Classification Study</h3>
+          <p>Research into how CNN models classify images using training datasets. I found it interesting how accuracy improves dramatically with more training data.</p>
+          <div class="project-tags">
+            <span class="project-tag">Computer Vision</span>
+            <span class="project-tag">CNNs</span>
+            <span class="project-tag">Research</span>
+          </div>
+          <a href="#" class="btn btn-secondary" style="padding:8px 18px; font-size:0.88rem;">View Details</a>
+        </div>
+      </div>
+
+      <!-- Project 4: This website - purple gradient -->
+      <div class="project-card">
+        <div class="project-img" style="background: linear-gradient(135deg,#1a0d2b,#3a1a5c);">🌐</div>
+        <div class="project-body">
+          <h3>This Website (AIInsights)</h3>
+          <p>Built from scratch using HTML5 and CSS3 for my Web Page Design and Production unit. No templates — every line of code written by me, Ebrahim.</p>
+          <div class="project-tags">
+            <span class="project-tag">HTML5</span>
+            <span class="project-tag">CSS3</span>
+            <span class="project-tag">Web Design</span>
+          </div>
+          <a href="index.html" class="btn btn-secondary" style="padding:8px 18px; font-size:0.88rem;">You're On It!</a>
+        </div>
+      </div>
+
+      <!-- Project 5: Data Analysis -->
+      <div class="project-card">
+        <div class="project-img" style="background: linear-gradient(135deg,#0d1f2b,#1a405c);">📊</div>
+        <div class="project-body">
+          <h3>Data Analysis with Python</h3>
+          <p>Using Python to analyse datasets and find patterns — a skill I want to develop further as it is the foundation of real-world machine learning work.</p>
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">Data Science</span>
+            <span class="project-tag">Statistics</span>
+          </div>
+          <a href="#" class="btn btn-secondary" style="padding:8px 18px; font-size:0.88rem;">View Details</a>
+        </div>
+      </div>
+
+      <!-- Project 6: AI Ethics -->
+      <div class="project-card">
+        <div class="project-img" style="background: linear-gradient(135deg,#1f2b0d,#405c1a);">⚖️</div>
+        <div class="project-body">
+          <h3>AI Ethics Analysis</h3>
+          <p>A written analysis of ethical concerns in AI — algorithmic bias, surveillance, job displacement, and the need for regulation. A topic I feel strongly about.</p>
+          <div class="project-tags">
+            <span class="project-tag">Ethics</span>
+            <span class="project-tag">Research</span>
+            <span class="project-tag">Writing</span>
+          </div>
+          <a href="#" class="btn btn-secondary" style="padding:8px 18px; font-size:0.88rem;">View Details</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 <span>AIInsights</span> · Ebrahim · Web Page Design &amp; Production · RNN Group</p>
+  </footer>
+
+</body>
+</html>

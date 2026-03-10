@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!--
+  About Page - Ebrahim
+  I designed this page to introduce myself and explain why I chose AI as my topic.
+  The two-column grid layout felt natural here: profile on the left, story on the right.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Insights – About Ebrahim</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Same navbar on every page - I copy the same HTML block across all pages for consistency -->
+  <nav>
+    <div class="nav-container">
+      <div class="nav-logo">AI<span>Insights</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page header - simpler than the hero on the homepage, just a title and subtitle -->
+  <div class="page-header">
+    <h1>About Me</h1>
+    <p>Computing student with a passion for Artificial Intelligence</p>
+  </div>
+
+  <!-- ======== MAIN CONTENT ========
+       I used a 2-column CSS Grid here. On mobile (under 768px) a media query
+       in my CSS switches this to a single column using grid-template-columns: 1fr -->
+  <div class="section">
+    <div class="about-grid">
+
+      <!-- LEFT COLUMN: Profile card + goal card -->
+      <div>
+        <!-- Profile card - the avatar is just a div styled as a circle with a gradient background -->
+        <div class="profile-card">
+          <div class="avatar">👨‍💻</div>
+          <h2>Ebrahim</h2>
+          <p class="role">Access to HE Diploma in Computing</p>
+          <p style="color:#8b949e; font-size:0.88rem;">RNN Group – Rotherham College</p>
+          <!-- Skill tags - I styled these as pill-shaped badges using border-radius: 20px in CSS -->
+          <div class="skills-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">Python</span>
+            <span class="tag">AI</span>
+            <span class="tag">Web Design</span>
+            <span class="tag">Problem Solving</span>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top: 24px;">
+          <div class="card-icon">🎯</div>
+          <h3>My Goal</h3>
+          <p>To progress into higher education and build a career in AI and software development — contributing to technology that makes a real difference in people's lives.</p>
+        </div>
+      </div>
+
+      <!-- RIGHT COLUMN: Personal story and timeline -->
+      <div class="info-section">
+        <h2>My Story</h2>
+        <p>My name is Ebrahim and I am currently studying for an Access to Higher Education Diploma in Computing at Rotherham College. I chose AI as the topic for this website because it is the area of technology I find most exciting and relevant to the future.</p>
+        <p>What draws me to Artificial Intelligence is the way it combines logic, mathematics, and real-world problem solving. Whether it is a recommendation algorithm suggesting what to watch next, or a medical AI detecting cancer earlier than a doctor — the applications are endless and genuinely important.</p>
+        <p>This website is built entirely from scratch using HTML5 and CSS3. I deliberately avoided website builders like Wix or Squarespace because I wanted to understand how web pages actually work at a code level.</p>
+
+        <div class="divider"></div>
+
+        <!-- Timeline - each item has a blue dot (styled in CSS) and text beside it -->
+        <h2>My Journey</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div>
+              <h4>Access to HE Diploma in Computing</h4>
+              <p>RNN Group – Rotherham College · 2025–2026</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div>
+              <h4>Web Page Design and Production</h4>
+              <p>Built this 5-page website from scratch using HTML &amp; CSS</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div>
+              <h4>University (Next Step)</h4>
+              <p>Planning to study Computer Science or AI at university</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 <span>AIInsights</span> · Ebrahim · Web Page Design &amp; Production · RNN Group</p>
+  </footer>
+
+</body>
+</html>

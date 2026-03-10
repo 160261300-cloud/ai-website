@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!-- 
+  AIInsights Website - Home Page
+  Created by: Ebrahim
+  Unit: Web Page Design and Production
+  Course: Access to HE Diploma in Computing - RNN Group
+  Date: February 2026
+
+  This is the main homepage. I decided to use a dark theme because I think
+  it looks more professional for a tech/AI website. The hero section is the
+  first thing visitors see so I made it eye-catching with a gradient background.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <!-- viewport tag makes the site work properly on mobile screens -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Insights – Ebrahim</title>
+  <!-- linking my external CSS file - I kept all styling in one file to keep things organised -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ======== NAVIGATION BAR ========
+       I used position: sticky in CSS so the navbar stays at the top when scrolling.
+       The active class highlights the current page link in blue. -->
+  <nav>
+    <div class="nav-container">
+      <div class="nav-logo">AI<span>Insights</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ======== HERO SECTION ========
+       This is the first section users see. I added a radial gradient glow effect
+       in CSS using a ::before pseudo-element to give it a futuristic AI feel. -->
+  <section class="hero">
+    <div class="hero-badge">🤖 Exploring Artificial Intelligence</div>
+    <h1>Understanding the Future of <span class="highlight">AI Technology</span></h1>
+    <p>Hi, I'm Ebrahim. This site is my personal showcase of AI concepts, projects, and resources — built from scratch using HTML and CSS as part of my Computing diploma.</p>
+    <a href="projects.html" class="btn btn-primary">View My Projects</a>
+    <a href="about.html" class="btn btn-secondary">About Me</a>
+  </section>
+
+  <!-- ======== STATS BAR ========
+       I added this to give visitors a quick summary. Used CSS Grid with 4 columns. -->
+  <div class="stats-bar">
+    <div class="stats-container">
+      <div>
+        <div class="stat-number">5+</div>
+        <div class="stat-label">AI Projects</div>
+      </div>
+      <div>
+        <div class="stat-number">10+</div>
+        <div class="stat-label">Resources</div>
+      </div>
+      <div>
+        <div class="stat-number">3</div>
+        <div class="stat-label">AI Fields Covered</div>
+      </div>
+      <div>
+        <div class="stat-number">2026</div>
+        <div class="stat-label">Academic Year</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======== TOPIC CARDS ========
+       CSS Grid with auto-fit and minmax makes cards wrap automatically on small screens.
+       I chose these 6 AI topics because they are the most relevant to what I have been studying. -->
+  <div class="section">
+    <h2 class="section-title">Key AI Topics</h2>
+    <p class="section-subtitle">These are the main areas of Artificial Intelligence I have been researching and learning about.</p>
+    <div class="divider"></div>
+    <div class="cards-grid">
+
+      <div class="card">
+        <div class="card-icon">🧠</div>
+        <h3>Machine Learning</h3>
+        <p>Algorithms that enable computers to learn patterns from data and improve their performance over time without being explicitly programmed.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">💬</div>
+        <h3>Natural Language Processing</h3>
+        <p>Technology that allows computers to understand, interpret, and generate human language — powering chatbots, translators, and more.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">👁️</div>
+        <h3>Computer Vision</h3>
+        <p>AI systems that can interpret and understand visual information from the world, enabling facial recognition and object detection.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">🤖</div>
+        <h3>Robotics &amp; Automation</h3>
+        <p>Combining AI with physical machines to automate tasks — from manufacturing robots to self-driving cars.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">🔮</div>
+        <h3>Neural Networks</h3>
+        <p>Computational models inspired by the human brain, forming the foundation of deep learning and modern AI breakthroughs.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">⚖️</div>
+        <h3>AI Ethics</h3>
+        <p>The study of moral implications in AI development — covering fairness, privacy, bias, and the responsible use of technology.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer - &copy; is an HTML entity for the copyright symbol -->
+  <footer>
+    <p>&copy; 2026 <span>AIInsights</span> · Ebrahim · Web Page Design &amp; Production · RNN Group</p>
+  </footer>
+
+</body>
+</html>
